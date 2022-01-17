@@ -1,0 +1,56 @@
+body {
+  background-image: url(https://media.abc10.com/assets/KXTV/images/6892e486-e1c6-4eb2-be25-03dabd369eb3/6892e486-e1c6-4eb2-be25-03dabd369eb3_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  margin: 1rem;
+  text-decoration-style: solid;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+p {
+  text-align: justify;
+  font-style: oblique;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rem double black;
+}
+
+.studentcard {
+  display: flex;
+  flex-wrap: no-wrap;
+  margin: 2rem auto;
+  min-width: 200px;
+  max-width: 600px;
+  border-radius: 2rem;
+  box-shadow: 6px 4px 7px 6px #00000040;
+}
+
+.description {
+  flex: 1;
+  padding: 1rem;
+  background-color: gray;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: orange;
+  padding: 1rem;
+  border-radius: 0 1rem 1rem 0;
+  gap: 1.5rem;
+}
